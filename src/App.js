@@ -1,24 +1,24 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import notes from './assets/notes.js';
+import './App.scss';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="page">
+      <h1>Create your react xylophone</h1>
+      <div className="xylophone">
+        {/* I am placeholder buttons, please create me using a map, and with your own component */}
+        <button>c</button>
+        <button>d1</button>
+        <button>e1</button>
+        <button>f</button>
+        <button>g</button>
+        <button>a</button>
+        <button>b</button>
+        <button>c2</button>
+      </div>
+      {/* <button>Replay</button> */}
+      {/* <button>Clear</button> */}
     </div>
   );
 }

@@ -1,5 +1,9 @@
 # React Xylophone
 
+[![Watch the video with sound](react-xylophone.gif)](https://i.imgur.com/0Kdebrl.mp4)
+
+[Click to watch with sound.](https://i.imgur.com/0Kdebrl.mp4)
+
 Welcome to a classic react starter project with a little extra flare. This project expects you to have seen React before, understand the JSX and component syntax, but not much beyond that.
 
 We will be exploring when and why to create reusable components, mapping over data to create components dynamically, and handling events.

@@ -20,12 +20,12 @@ We will be exploring when and why to create reusable components, mapping over da
 * [ ] Make the `Replay` button replay all previously played notes.
 * [ ] Make the `Clear` button clear previously played notes.
 * [ ] Use CSS to make your xylophone look like a xylophone.
+* [ ] Record the relative times notes are played and use that during playback.
+* [ ] Use scss mixins to make different styles for each note to reduce repeating yourself.
 
 ## Further Ideas
 
-* [ ] Record the relative times notes are played and use that during playback.
-* [ ] Use scss mixins to make different styles for each note.
-* [ ] Use inline styles to make the note styles. For example, but adding more properties to the notes objects (like color), or using math to calculate height based on index.
+* [ ] Use inline styles to make the note styles. For example, by adding more properties to the notes objects (like color), and/or using math to calculate height based on index.
 * [ ] Add keyboard shortcuts.
 * [ ] Make a soundboard application.
 
@@ -40,7 +40,6 @@ mySound.play();
 
 * In order to hear the notes you may need to allow the page to play audio in your web browser permission.
 * Audio samples are part of the [Xylophone Pack by DANMITCH3LL](https://freesound.org/people/DANMITCH3LL/packs/14220/).
-* TODO: Documentation on playing audio files
 
 ## Install and Use
 

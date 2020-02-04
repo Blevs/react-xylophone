@@ -10,16 +10,16 @@ We will be exploring when and why to create reusable components, mapping over da
 
 ## Goals
 
-* [ ] Create a working xylophone. Pressing each of the note buttons will play the tone associated with it.
-* [ ] Create a reusable component for the note button.
-* [ ] Do not manually create each note button. Instead, use of the array of objects found in `src/assets/notes.js` and a `.map` to create the components.
+* [x] Create a working xylophone. Pressing each of the note buttons will play the tone associated with it.
+* [x] Create a reusable component for the note button.
+* [x] Do not manually create each note button. Instead, use of the array of objects found in `src/assets/notes.js` and a `.map` to create the components.
 
 ## Stretch Goals
 
-* [ ] Use state to keep track of notes as they are played.
+* [x] Use state to keep track of notes as they are played.
 * [ ] Make the `Replay` button replay all previously played notes.
 * [ ] Make the `Clear` button clear previously played notes.
-* [ ] Use CSS to make your xylophone look like a xylophone.
+* [x] Use CSS to make your xylophone look like a xylophone.
 * [ ] Record the relative times notes are played and use that during playback.
 * [ ] Use scss mixins to make different styles for each note to reduce repeating yourself.
 
